@@ -1,0 +1,39 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Define CSS variables from the color scheme */
+:root {
+    --primary-color: #336699; /* Primary color */
+    --secondary-color: #FF9900; /* Secondary color */
+    --text-color: #333333; /* Text color */
+}
+
+/* Styling headings */
+h1, h2, h3 {
+    color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styling paragraph elements */
+p {
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Remove underlines from social media links */
+.social-links a {
+    text-decoration: none;
+}
+
+/* Limiting entire width of the page */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
